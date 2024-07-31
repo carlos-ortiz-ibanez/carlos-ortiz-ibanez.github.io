@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mensaje-inicial {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.mensaje-inicial button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.mensaje-inicial button:hover {
+    background-color: #218838;
+}
+
+.reacciones-container {
+    margin-top: 20px;
+}
+
+.reaccion {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-coeficiente {
+    width: 40px;
+    text-align: center;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-verificar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-verificar:hover {
+    background-color: #c82333;
+}
+
+.btn-siguiente {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-siguiente:hover {
+    background-color: #218838;
+}
+
+.mensaje {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
